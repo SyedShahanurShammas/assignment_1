@@ -294,10 +294,12 @@
 .functions {
     max-width: 1320px;
     margin: auto;
+
 }
 
 .function_text {
     text-align: center;
+    margin-bottom: 550px;
 }
 
 .function_text h3 {
@@ -326,6 +328,122 @@
     width: 1000px;
     font-style: normal;
     font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+}
+
+/* Images style */
+.images_f {
+    position: relative;
+}
+
+.img_right {
+    position: absolute;
+    right: 0px;
+    bottom: 229px;
+}
+
+.img_gift {
+    position: absolute;
+    top: -425px;
+}
+
+.img_gift {
+    width: 60%;
+}
+
+.offer {
+    position: relative;
+
+}
+
+.offer_set {
+    position: absolute;
+    left: -180px;
+    top: 10%;
+}
+
+/* best gift style */
+.best_gift {
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.text_of_bg {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio_text {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.best_gift p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    max-width: 896px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.img_section {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* 
+ style subscribe section
+*/
+.subscribe {
+
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 120px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe_things {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.subscribe_things h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+
+.subscribe_things p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    max-width: 896px;
+    margin: auto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 32px;
     /* 160% */
 }
